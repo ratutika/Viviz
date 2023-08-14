@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        header{
+            background-color: white;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            border-color: black;
+        }
+
+        header img {
+          width: 10%;
+        }
+        nav{
+            background-color:black;
+            height: 50px;
+            position: relative;
+            padding: 5px;
+        }
+        nav li, a{
+            text-decoration: none;
+            font-size: 20px;
+            padding: 15px;
+            color:white;
+            list-style: none;
+            display: inline;
+        }
+        h1{
+            margin-top: 30px;
+        }
+        a.ticle{
+            background-color: #b04f8b;
+            padding: 30px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            font-style: 20px;
+            font-family: 'Unna', serif;
+           
+
+        }
+
+        #myImg1{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black; }
+        #myImg2{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black; }
+
+        #myImg3{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+
+        #myImg4{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+        #myImg5{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+       #myImg6{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+      #myImg7{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+       #myImg8{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+      #myImg9{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+      #myImg10{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+      #myImg11{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black; }
+      #myImg12{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black; }
+
+      #myImg13{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+
+      #myImg14{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+      #myImg15{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+      #myImg16{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+      #myImg17{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+      #myImg18{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+      #myImg19{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+      #myImg20{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+      #myImg21{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black; }
+      #myImg22{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black; }
+
+      #myImg23{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+
+      #myImg24{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+      #myImg25{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+      #myImg26{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+      #myImg27{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+      #myImg28{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+      #myImg29{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+      #myImg30{
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            border: 5px solid black;}
+            
+            
+        #myImg1:hover {opacity: 0.4;}
+        #myImg2:hover {opacity: 0.4;}
+        #myImg3:hover {opacity: 0.4;}
+        #myImg4:hover {opacity: 0.4;}
+        #myImg5:hover {opacity: 0.4;}
+        #myImg6:hover {opacity: 0.4;}
+        #myImg7:hover {opacity: 0.4;}
+        #myImg8:hover {opacity: 0.4;}
+        #myImg9:hover {opacity: 0.4;}
+        #myImg10:hover {opacity: 0.4;}
+        #myImg11:hover {opacity: 0.4;}
+        #myImg12:hover {opacity: 0.4;}
+        #myImg13:hover {opacity: 0.4;}
+        #myImg14:hover {opacity: 0.4;}
+        #myImg15:hover {opacity: 0.4;}
+        #myImg16:hover {opacity: 0.4;}
+        #myImg17:hover {opacity: 0.4;}
+        #myImg18:hover {opacity: 0.4;}
+        #myImg19:hover {opacity: 0.4;}
+        #myImg20:hover {opacity: 0.4;}
+        #myImg21:hover {opacity: 0.4;}
+        #myImg22:hover {opacity: 0.4;}
+        #myImg23:hover {opacity: 0.4;}
+        #myImg24:hover {opacity: 0.4;}
+        #myImg25:hover {opacity: 0.4;}
+        #myImg26:hover {opacity: 0.4;}
+        #myImg27:hover {opacity: 0.4;}
+        #myImg28:hover {opacity: 0.4;}
+        #myImg29:hover {opacity: 0.4;}
+        #myImg30:hover {opacity: 0.4;}
+      
+
+        .modal {
+        display: none;
+        position: fixed;
+        z-index: 1; 
+        padding-top: 100px; 
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
+        background-color:rgb(#b04f8b);
+        background-color: rgba(#b04f8b);
+        border: 5px solid wheat;
+        
+        }
+
+        .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        border: 5px solid wheat;
+        
+        }
+
+
+        .modal-content, #caption {  
+        -webkit-animation-name: zoom;
+        -webkit-animation-duration: 0.6s;
+        animation-name: zoom;
+        animation-duration: 0.6s;
+        
+        
+        }
+
+        @-webkit-keyframes zoom {
+        from {-webkit-transform:scale(0)} 
+        to {-webkit-transform:scale(1)}
+        }
+
+        @keyframes zoom {
+        from {transform:scale(0)} 
+        to {transform:scale(1)}
+        }  
+
+        .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+        
+        }
+
+        .close:hover,
+        .close:focus {
+         color: black;
+        text-decoration: none;
+        cursor: pointer;
+        
+        }
+
+        @media only screen and (max-width: 700px){
+        .modal-content {
+        width: 100%;
+        }
+    }
+
+
+        footer{
+            background-color: black;
+            padding: 20px;
+            text-align: center;
+            color:white;
+          
+         }
+         
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/VIVIZ_Logo.png">
+      </header>
+    
+      <nav>
+    
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="Schedule.html">Schedule</a></li>
+    <li><a href="Music.html">Music</a></li>
+    <li><a href="Store.html">Store</a></li>
+    </ul>
+      </nav>
+      <center><h1>GALLERY</h1> </center>
+     
+      <img id="myImg1" src="images/almember1.jpg" style="width:100%; max-width:300px">
+
+      <div id="myModa1" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+       
+       </div>
+      
+      <img id="myImg2" src="images/almember2.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal2" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img02">
+       </div>
+
+      <img id="myImg3" src="images/almember3.jpg" style="width:100%; max-width:300px">
+      <div id="myModal3" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img03">
+       </div>
+
+      <img id="myImg4" src="images/almember4.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal4" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img04">
+      </div>
+
+      <img id="myImg5" src="images/almember5.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal5" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img05">
+      </div>
+
+      <img id="myImg6" src="images/almember6.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal6" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img06">
+      </div>
+
+      <img id="myImg7" src="images/almember7.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal7" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img07">
+      </div>
+
+      <img id="myImg8" src="images/almember8.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal8" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img08">
+      </div>
+
+      <img id="myImg9" src="images/Almember9.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal9" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img09">
+      </div>
+
+      <img id="myImg10" src="images/almember10.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal10" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img10">
+      </div>
+
+      <img id="myImg11" src="images/almember11.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal11" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img11">
+      </div>
+
+      <img id="myImg12" src="images/almember12.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal12" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img12">
+      </div>
+
+      <img id="myImg13" src="images/almember13.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal13" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img13">
+      </div>
+
+      <img id="myImg14" src="images/almember14.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal14" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img14">
+      </div>
+
+      <img id="myImg15" src="images/almember15.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal15" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img15">
+      </div>
+
+      <img id="myImg16" src="images/almember16.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal16" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img16">
+      </div>
+
+      <img id="myImg17" src="images/almember17.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal17" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img17">
+      </div>
+
+      <img id="myImg18" src="images/almember18.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal18" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img18">
+      </div>
+
+      <img id="myImg19" src="images/almember19.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal19" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img19">
+      </div>
+
+      <img id="myImg20" src="images/almember20.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal20" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img20">
+      </div>
+
+      <img id="myImg21" src="images/almember1.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal21" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img21">
+      </div>
+
+      <img id="myImg22" src="images/almember12.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal22" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img22">
+      </div>
+
+      <img id="myImg23" src="images/almember13.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal23" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img23">
+      </div>
+
+      <img id="myImg24" src="images/almember17.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal24" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img24">
+      </div>
+
+      <img id="myImg25" src="images/almember19.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal25" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img25">
+      </div>
+
+      <img id="myImg26" src="images/almember16.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal26" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img26">
+      </div>
+
+      <img id="myImg27" src="images/almember16.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal27" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img27">
+      </div>
+
+      <img id="myImg28" src="images/almember1.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal28" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img28">
+      </div>
+      <img id="myImg27" src="images/almember13.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal27" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img27">
+      </div>
+      <img id="myImg27" src="images/almember14.jpg" style="width:100%; max-width:300px">
+      
+      <div id="myModal27" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img27">
+      </div>
+        
+       <script>
+      
+      var modal = document.getElementById("myModal1");
+      
+      var img = document.getElementById("myImg1");
+      var modalImg = document.getElementById("img01");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        }
+      
+      var span = document.getElementsByClassName("close")[1];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      
+      var modal = document.getElementById("myModal2");
+      
+      var img = document.getElementById("myImg2");
+      var modalImg = document.getElementById("img02");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+     var span = document.getElementsByClassName("close")[2];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      
+      var modal = document.getElementById("myModal3");
+      
+      var img = document.getElementById("myImg3");
+      var modalImg = document.getElementById("img03");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[3];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal4");
+      
+      var img = document.getElementById("myImg4");
+      var modalImg = document.getElementById("img04");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[4];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal5");
+      
+      var img = document.getElementById("myImg5");
+      var modalImg = document.getElementById("img05");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[5];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal6");
+      
+      var img = document.getElementById("myImg6");
+      var modalImg = document.getElementById("img06");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[6];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal7");
+      
+      var img = document.getElementById("myImg7");
+      var modalImg = document.getElementById("img07");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[7];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal8");
+      
+      var img = document.getElementById("myImg8");
+      var modalImg = document.getElementById("img08");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[8];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal9");
+      
+      var img = document.getElementById("myImg9");
+      var modalImg = document.getElementById("img09");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[9];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal10");
+      
+      var img = document.getElementById("myImg10");
+      var modalImg = document.getElementById("img10");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[10];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal11");
+      
+      var img = document.getElementById("myImg11");
+      var modalImg = document.getElementById("img11");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[11];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal12");
+      
+      var img = document.getElementById("myImg12");
+      var modalImg = document.getElementById("img12");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[12];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal13");
+      
+      var img = document.getElementById("myImg13");
+      var modalImg = document.getElementById("img13");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[13];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal14");
+      
+      var img = document.getElementById("myImg14");
+      var modalImg = document.getElementById("img14");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[14];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal15");
+      
+      var img = document.getElementById("myImg15");
+      var modalImg = document.getElementById("img15");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[15];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal16");
+      
+      var img = document.getElementById("myImg16");
+      var modalImg = document.getElementById("img16");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[16];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal17");
+      
+      var img = document.getElementById("myImg17");
+      var modalImg = document.getElementById("img17");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[17];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal18");
+      
+      var img = document.getElementById("myImg18");
+      var modalImg = document.getElementById("img18");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[18];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal19");
+      
+      var img = document.getElementById("myImg19");
+      var modalImg = document.getElementById("img19");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[19];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal20");
+      
+      var img = document.getElementById("myImg20");
+      var modalImg = document.getElementById("img20");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[20];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal21");
+      
+      var img = document.getElementById("myImg21");
+      var modalImg = document.getElementById("img21");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[21];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal22");
+      
+      var img = document.getElementById("myImg22");
+      var modalImg = document.getElementById("img22");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[22];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal23");
+      
+      var img = document.getElementById("myImg23");
+      var modalImg = document.getElementById("img23");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[23];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal24");
+      
+      var img = document.getElementById("myImg24");
+      var modalImg = document.getElementById("img24");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[24];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal25");
+      
+      var img = document.getElementById("myImg25");
+      var modalImg = document.getElementById("img25");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[25];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal26");
+      
+      var img = document.getElementById("myImg26");
+      var modalImg = document.getElementById("img26");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[26];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal27");
+      
+      var img = document.getElementById("myImg27");
+      var modalImg = document.getElementById("img27");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[27];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal28");
+      
+      var img = document.getElementById("myImg28");
+      var modalImg = document.getElementById("img28");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[28];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal29");
+      
+      var img = document.getElementById("myImg29");
+      var modalImg = document.getElementById("img29");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[29];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+      var modal = document.getElementById("myModal30");
+      
+      var img = document.getElementById("myImg30");
+      var modalImg = document.getElementById("img30");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+       }
+      
+      var span = document.getElementsByClassName("close")[30];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+
+
+      </script>
+   </article>
+      
+</body>
+</html>
